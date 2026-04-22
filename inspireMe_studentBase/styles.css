@@ -143,3 +143,29 @@ DO NOT EDIT CONTENT BELOW
 .section-margins {
     margin-top: 150px
 }
+
+/* Moon-colored button styling */
+.moon-button {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    font-size: 20px !important;
+    padding: 12px 30px !important;
+    margin-top: 20px !important;
+}
+
+.moon-button:hover {
+    background-color: #ffcd38 !important;
+    border-color: #ffcd38 !important;
+}
+
+/* Sparkle animation - makes sparkles fade out and float up */
+@keyframes sparkleAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(1.5);
+    }
+}
