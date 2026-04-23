@@ -81,7 +81,9 @@ Example: <img src="images/disney/ariel.png" class="img-fluid floating">
 
 index.html - Add your text, images, and content
 styles.css - Change colors, fonts, and card styles
+scripts/button-magic.js - Button click functions (see examples)
 animations/animation-styles.css - DON'T EDIT (animations are already set up)
+scripts/sparkle-helper.js - DON'T EDIT (helper code provided)
 
 💡 PRO TIPS
 ==========================================
@@ -121,6 +123,24 @@ In styles.css, you can change:
   - Card text color (line 69)
   - Card title color (line 80)
   - Button colors (lines 85, 91)
+
+⚡ JAVASCRIPT BUTTON FUNCTIONS
+==========================================
+
+Two button functions available:
+
+1. celebrationAlert()
+   - Shows a pop-up message with alert()
+   - Example: alert("🎉 Welcome to Spellcasting! You're enrolled! ✨");
+
+2. sparkleMagic()
+   - Creates 15 sparkles on screen
+   - Uses a for loop to call createSparkle() multiple times
+   - createSparkle() is in sparkle-helper.js (you don't need to edit it!)
+
+Adding buttons to your HTML:
+  <button onclick="celebrationAlert()">Click me!</button>
+  <button onclick="sparkleMagic()">Sparkles!</button>
 
 📚 HTML STRUCTURE REMINDER
 ==========================================
