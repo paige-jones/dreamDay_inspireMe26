@@ -1,3 +1,11 @@
+// Choose your sparkle emoji! Change the emoji below:
+// Try these: 💪 👑 🍄✨
+const SPARKLE_EMOJI = '✨';
+
+// -----------------------------------------
+//
+// DO NOT EDIT THE CODE BELOW
+//
 // Helper function to create a single sparkle
 // This code is provided for you - you don't need to edit it!
 function createSparkle() {
@@ -5,7 +13,7 @@ function createSparkle() {
     const sparkle = document.createElement('div');
 
     // Add sparkle emoji
-    sparkle.textContent = '✨';
+    sparkle.textContent = SPARKLE_EMOJI;
 
     // Style the sparkle
     sparkle.style.position = 'fixed';

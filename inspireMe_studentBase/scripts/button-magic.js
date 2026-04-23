@@ -1,3 +1,5 @@
+const MAX_SPARKLES = 500;
+
 // Button 1: Celebration Alert
 // This function shows a fun celebration message!
 function celebrationAlert() {
